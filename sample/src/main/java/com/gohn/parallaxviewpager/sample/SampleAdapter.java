@@ -23,7 +23,7 @@ public class SampleAdapter extends PagerAdapter {
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "也称乱数假文或者哑元文本， 是印刷及排版领域所常用的虚拟文字",
             "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur",
-            " это текст-рыба, часто используемый в печати и вэб-дизайне",
+            "발휘하기 든 불어 날카로우나 따뜻한 들어 시들어 없으면, 것이다. 인생에 힘차게 희망의 인간은 이것이다.",
             "տպագրության և տպագրական արդյունաբերության համար նախատեսված մոդելային տեքստ"
     };
 
@@ -46,9 +46,9 @@ public class SampleAdapter extends PagerAdapter {
     public Object instantiateItem(ViewGroup container, final int position) {
         View v = inflater.inflate(R.layout.layout_sample, null);
 
-        ImageView image = v.findViewById(R.id.image);
-        TextView title = v.findViewById(R.id.title);
-        TextView text = v.findViewById(R.id.text);
+        ImageView image = (ImageView) v.findViewById(R.id.image);
+        TextView title = (TextView) v.findViewById(R.id.title);
+        TextView text = (TextView) v.findViewById(R.id.text);
 
         image.setImageResource(images[position % 5]);
         text.setText(texts[position % 5]);
