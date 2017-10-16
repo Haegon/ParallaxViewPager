@@ -8,7 +8,7 @@ import android.view.View;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ParallaxPagerTransformer implements ViewPager.PageTransformer {
+class ParallaxPagerTransformer implements ViewPager.PageTransformer {
 
     private Map<Integer, Float> speedMap;
 

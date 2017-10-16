@@ -21,9 +21,9 @@
             android:layout_gravity="bottom|left"
             android:layout_margin="16dp"
             android:shadowColor="#FF464646"
-            android:shadowDx="1.0"
-            android:shadowDy="1.0"
-            android:shadowRadius="1.0"
+            android:shadowDx="3.0"
+            android:shadowDy="3.0"
+            android:shadowRadius="3.0"
             android:textColor="#ffffff"
             android:textSize="20dp" />
 
@@ -32,7 +32,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="16dp"
-            android:text="This is Title"
             android:textSize="48dp"
             android:textStyle="bold" />
     </FrameLayout>

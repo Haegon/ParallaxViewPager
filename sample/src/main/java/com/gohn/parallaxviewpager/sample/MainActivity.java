@@ -30,10 +30,8 @@ public class MainActivity extends AppCompatActivity {
         pager3.addMovementToView(R.id.text, 0.1f);
         pager3.addMovementToView(R.id.image, 0.1f);
 
-        SampleAdapter adapter = new SampleAdapter(this, getLayoutInflater());
-
-        pager1.setAdapter(adapter);
-        pager2.setAdapter(adapter);
-        pager3.setAdapter(adapter);
+        pager1.setAdapter(new SampleAdapter(getLayoutInflater(), "Only Text"));
+        pager2.setAdapter(new SampleAdapter(getLayoutInflater(), "Only Image"));
+        pager3.setAdapter(new SampleAdapter(getLayoutInflater(), "Text and Image"));
     }
 }

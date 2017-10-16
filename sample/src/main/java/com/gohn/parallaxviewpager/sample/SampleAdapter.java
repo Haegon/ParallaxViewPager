@@ -1,6 +1,5 @@
 package com.gohn.parallaxviewpager.sample;
 
-import android.content.Context;
 import android.graphics.Color;
 import android.support.v4.view.PagerAdapter;
 import android.view.LayoutInflater;
@@ -15,7 +14,7 @@ import android.widget.TextView;
 
 public class SampleAdapter extends PagerAdapter {
 
-    Context context;
+    String title;
     LayoutInflater inflater;
     int[] colors = new int[]{Color.WHITE, Color.BLACK, Color.GREEN, Color.BLUE, Color.RED};
     int[] images = new int[]{R.drawable.ty01, R.drawable.ty02, R.drawable.ty03, R.drawable.ty04, R.drawable.ty05};
@@ -27,9 +26,9 @@ public class SampleAdapter extends PagerAdapter {
             "տպագրության և տպագրական արդյունաբերության համար նախատեսված մոդելային տեքստ"
     };
 
-    public SampleAdapter(Context context, LayoutInflater inflater) {
-        this.context = context;
+    public SampleAdapter(LayoutInflater inflater, String title) {
         this.inflater = inflater;
+        this.title = title;
     }
 
     @Override
@@ -52,6 +51,7 @@ public class SampleAdapter extends PagerAdapter {
 
         image.setImageResource(images[position % 5]);
         text.setText(texts[position % 5]);
+        title.setText(this.title);
         title.setTextColor(colors[position % 5]);
 
         container.addView(v);
