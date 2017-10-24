@@ -5,10 +5,7 @@
 
 
 ## Demo
-
-<img src="https://github.com/Haegon/ParallaxViewPager/tree/master/extra/Screenshot1.png" width="360px" height="640px"/>
-
-<img src="https://github.com/Haegon/ParallaxViewPager/tree/master/extra/Screenshot2.png" width="360px" height="640px"/>
+![alt text](https://github.com/Haegon/ParallaxViewPager/tree/master/extra/demo.gif)
 
 ### Download from Google Play
 
