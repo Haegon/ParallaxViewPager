@@ -5,7 +5,9 @@
 
 
 ## Demo
-![alt text](https://github.com/Haegon/ParallaxViewPager/tree/master/extra/demo.gif)
+
+<img src="https://raw.githubusercontent.com/Haegon/ParallaxViewPager/master/extra/demo.gif" width="282px" height="450px"/>
+
 
 ### Download from Google Play
 
