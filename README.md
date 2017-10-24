@@ -32,7 +32,7 @@ allprojects {
 * Add the dependency
 ```Gradle
 dependencies {
-    compile 'com.github.Haegon:ParallaxViewPager:1.0.0'
+    compile 'com.github.Haegon:ParallaxViewPager:1.0.1'
 }
 ```
 
@@ -54,7 +54,7 @@ Maven
 <dependency>
     <groupId>com.github.Haegon</groupId>
     <artifactId>ParallaxViewPager</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 
