@@ -6,7 +6,9 @@
 
 ## Demo
 
-<img src="https://github.com/Haegon/ParallaxViewPager/tree/master/extra/demo.gif" width="282px" height="450px"/>
+<img src="https://github.com/Haegon/ParallaxViewPager/tree/master/extra/Screenshot1.png" width="360px" height="640px"/>
+
+<img src="https://github.com/Haegon/ParallaxViewPager/tree/master/extra/Screenshot2.png" width="360px" height="640px"/>
 
 ### Download from Google Play
 
