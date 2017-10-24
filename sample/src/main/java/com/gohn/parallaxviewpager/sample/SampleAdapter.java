@@ -17,7 +17,7 @@ public class SampleAdapter extends PagerAdapter {
     String title;
     LayoutInflater inflater;
     int[] colors = new int[]{Color.WHITE, Color.BLACK, Color.GREEN, Color.BLUE, Color.RED};
-    int[] images = new int[]{R.drawable.ty01, R.drawable.ty02, R.drawable.ty03, R.drawable.ty04, R.drawable.ty05};
+    int[] images = new int[]{R.drawable.bg1, R.drawable.bg2, R.drawable.bg3, R.drawable.bg4, R.drawable.bg5};
     String[] texts = new String[]{
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "也称乱数假文或者哑元文本， 是印刷及排版领域所常用的虚拟文字",
