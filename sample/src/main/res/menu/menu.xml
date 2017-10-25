@@ -9,6 +9,11 @@
 
         <menu>
             <item
+                android:id="@+id/action_github"
+                android:title="Github"
+                app:showAsAction="ifRoom|collapseActionView"></item>
+
+            <item
                 android:id="@+id/action_instagram"
                 android:title="Instagram"
                 app:showAsAction="ifRoom|collapseActionView"></item>

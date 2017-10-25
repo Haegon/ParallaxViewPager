@@ -49,6 +49,12 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
+            case R.id.action_github:
+                String url = "https://github.com/Haegon/ParallaxViewPager";
+                Intent iGithub = new Intent(Intent.ACTION_VIEW);
+                iGithub.setData(Uri.parse(url));
+                startActivity(iGithub);
+                break;
             case R.id.action_feedback:
                 Intent iEmail = new Intent(Intent.ACTION_SEND);
                 iEmail.putExtra(Intent.EXTRA_EMAIL, new String[]{"gohn0929@gmail.com"});
